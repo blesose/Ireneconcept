@@ -1,0 +1,76 @@
+ body {
+    font-family: FedExSans, Arial, sans-serif;
+ }
+header {
+    background-color: blueviolet;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+
+    height: 4rem;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.navbar_first__div {
+    width:800px;
+
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: white;
+    
+}
+
+.navbar_second__div {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: white;
+    
+}
+.herosection {
+    margin-top: 50px;
+
+}
+.heroimage {
+    height: 80vh;
+    width: 100%;
+    background-image: url("../assets/fedexguy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+.herotext {
+    text-align: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.herobox {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding: 15px;
+}
+
+.heroinput {
+    justify-content: center;
+}
+

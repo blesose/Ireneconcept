@@ -1,0 +1,143 @@
+*, html, body {
+    font-family:  Arial, sans-serif;
+
+}
+
+
+header{
+    background-color: rgb(98, 11, 148);
+    height: 50px;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* white-space: nowrap; */
+    /* max-width: 1000px; */
+} 
+
+.navbar {
+    display: flex;
+    /* justify-content: space-evenly; */
+    
+
+}
+
+.navbar_first__div {
+display: flex;
+list-style-type: none;
+color: white;
+}
+
+.navbar_first__div img{
+    width: 120px;
+    margin-right: 50px;
+}
+.navbar_second__div {
+    display: flex;
+    list-style-type: none;
+    color: white;
+    justify-content: space-between;
+    gap: 15px;
+    margin-right: 50px;
+}
+
+.navbar_third__div {
+    display: flex;
+    list-style-type: none;
+    color: white;
+    
+}
+
+#signicon {
+font-size: large;
+color: wheat;
+}
+
+#mgicon {
+font-size: large;
+color: silver;
+}
+.signuporlogin {
+    text-decoration-line: underline;
+}
+.herosection{
+    margin-top: 50px;
+    width: 100%; 
+}
+.heroimage {
+    background-image: url("../assets/heroimage.jpg");
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    text-align: center;
+   
+   
+}
+
+.herotext {
+    position: absolute;
+    top: 100px;
+    right: 250px;
+}
+
+.herotext h1{
+    font-weight: 100;
+    font-size: 26px;
+}
+
+
+
+.cal { 
+margin-right: 40px;
+}
+
+.input {
+    height: 36px;
+    width: 180px;
+}
+.button {
+    background-color: rgb(255, 115, 0);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 100px;
+}
+
+.secttion__first>div{
+width: 80vw;
+background-color: rgb(250, 251, 251);
+font-size: 14px;
+margin: 0 auto;
+padding: 16px;
+display: flex;
+}
+section>div>{
+    padding: 16px;
+}
+
+.first-sub__div {
+    display: flex;
+    
+}
+.second-sub__div {
+    display: flex;
+
+}
+
+    
+    
+
+
+  
